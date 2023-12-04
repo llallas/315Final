@@ -1,0 +1,42 @@
+{
+    "Products": [
+      {
+        "productName": "Choclate cup",
+        "productImage": "chcocandy.jpg",
+        "productShortDesc": "This is a great candy bar",
+        "productLongDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui quasi rerum temporibus minus, hic, totam vero rem nulla odio repellendus corrupti blanditiis impedit quis autem iusto vitae deserunt aliquam.",
+        "productPrice": "1.99"
+      },
+  
+      {
+          "productName": "Gummy Bear",
+          "productImage": "HARIBO.png",
+          "productShortDesc": "This is a great candy bar",
+          "productLongDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui quasi rerum temporibus minus, hic, totam vero rem nulla odio repellendus corrupti blanditiis impedit quis autem iusto vitae deserunt aliquam.",
+          "productPrice": "1.99"
+        },
+  
+        {
+          "productName": "Hard Candy",
+          "productImage": "jollycandy.jpg",
+          "productShortDesc": "This is a great Hard candy",
+          "productLongDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui quasi rerum temporibus minus, hic, totam vero rem nulla odio repellendus corrupti blanditiis impedit quis autem iusto vitae deserunt aliquam.",
+          "productPrice": "1.99"
+        },
+  
+        {
+          "productName": "Sour Candy",
+          "productImage": "sourcandy.jpg",
+          "productShortDesc": "This is a great Sour candy",
+          "productLongDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui quasi rerum temporibus minus, hic, totam vero rem nulla odio repellendus corrupti blanditiis impedit quis autem iusto vitae deserunt aliquam.",
+          "productPrice": "1.99"
+        }
+  
+        
+    ],
+  
+    
+    "Cart": []
+  }
+  
+  
