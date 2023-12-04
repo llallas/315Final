@@ -6,7 +6,6 @@
         margin-top: 20px;
         width: 83%;
         margin-top: 30px;
-        // height: 200px;
 
         img{
             width: 100%;
@@ -31,12 +30,31 @@
         .mach{
             width: 285px;
             height: 100%;
-            // background-color: red;
-            box-shadow: .5px .5px .5px .5px black;
+            // box-shadow: .5px .5px .5px .5px black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+            .coffeeAd{
+                width: 285px;
+                height: 100%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            
+            }
 
             .cof{
-                margin-top: 50px;
-                margin-left: -25px;
+                margin-top: 40px;
+                width: 250px;
+                height: 300px;
+
+                img{
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                }
 
 
             }
@@ -51,6 +69,11 @@
                 font-size: 20px;
                 font-family: markOt-reg;
 
+            }
+
+            .cost{
+                font-size: 20px;
+                font-family: markOt-reg;
             }
 
             .rating{

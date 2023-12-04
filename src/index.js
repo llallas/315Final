@@ -82,44 +82,29 @@ function changeRoute() {
     $.get(`pages/home.html`, function (data) {
       console.log("data" + data);
       $("#app").html(data);
-      loadCandy();
+      loadCoffee();
     });
   }
 }
 
 function loadCart() {
   $.each(productInfo.Cart, (idx, cartItem) => {
-    let candy = productInfo.Products[cartItem.itemIdx];
-    $(".cart").append(`<div class="candy">
-    <div class="candyImage">
-        <img src="images/${candy.productImage}" alt="">
+    let coffee = productInfo.Products[cartItem.itemIdx];
+    $(".cart").append(`<div class="coffee">
+    <div class="coffeeImage">
+        <img src="images/${coffee.productImage}" alt="">
     </div>
-    <div class="candyDetails">
-        <h3>${candy.productName} </h3>
-        <p>${candy.productShortDesc} </p>
-        <p class="price">${candy.productPrice}</p>
+    <div class="coffeeDetails">
+        <h3>${coffee.productName} </h3>
+        <p>${coffee.productShortDesc} </p>
+        <p class="price">${coffee.productPrice}</p>
         <div id="${idx}" class="buyNow">Delete</div>
     </div>
 </div>`);
   });
 }
 
-function loadCandy() {
-  // $(".home").html("");
-  // $.each(productInfo.Products, (idx, candy) => [
-  //   $(".home").append(`<div class="candy">
-  //         <div class="candyImage">
-  //             <img src="images/${candy.productImage}" alt="">
-  //         </div>
-  //         <div class="candyDetails">
-  //             <h3>${candy.productName} </h3>
-  //             <p>${candy.productShortDesc} </p>
-  //             <p class="price">${candy.productPrice}</p>
-  //             <div id="${idx}" class="buyNow">Buy Now</div>
-  //         </div>
-  //     </div>`),
-  // ]);
-
+function loadCoffee() {
   $(".buyNow").on("click", (e) => {
     let productIdx = e.currentTarget.id;
     let obj = {

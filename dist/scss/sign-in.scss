@@ -6,7 +6,6 @@
     position: fixed;
     top: 90px;
     right: 150px;
-    // left: 10px;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,12 +63,30 @@
 
 
     .checkbox{
+        display: flex;
+        width: 90%;
+
+        p{
+            font-size: 15px;
+            padding-left: 10px;
+            font-family: markOt-reg;
+
+        }
         
         input{
-            height: 10px;
-            width: 10px;
+            height: 20px;
+            width: 20px;
         }
     }
+
+    }
+
+    .in{
+        margin-top: 10px;
+        border-radius: 30px;
+        background-color: rgb(59, 43, 47);
+        color: white;
+        font-family: markOt;
 
     }
 
